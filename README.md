@@ -14,12 +14,12 @@ This project implements a parallel matrix-vector multiplication algorithm in C u
 
 1. Compile the code using the following command:
    ```
-   gcc -o llama2_3035835571 llama2_3035835571.c utilities.c -O2 -pthread -lm
+   gcc -o llama2 llama2.c utilities.c -O2 -pthread -lm
    ```
 
 2. Run the compiled executable with the desired number of threads:
    ```
-   ./llama2_3035835571 <seed> <thr_count>
+   ./llama2 <seed> <thr_count>
    ```
    Replace `<seed>` with a seed value for random number generation and `<thr_count>` with the desired number of threads to use for the computation.
 
